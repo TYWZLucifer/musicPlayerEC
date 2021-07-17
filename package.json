@@ -20,5 +20,10 @@
   "devDependencies": {
     "electron": "^13.1.6",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "electron-store": "^8.0.0",
+    "uuid": "^8.3.2"
   }
 }
