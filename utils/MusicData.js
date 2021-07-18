@@ -31,6 +31,11 @@ class MusicData extends Store {
         this.tracks = [ ...this.tracks, ...tracksWithProps ];
         return this.saveTracks();
     }
+
+    deleteTrack(id) {
+        this.tracks = this.tracks.filter(track => track.id !== id);
+        this.saveTracks();
+    }
 }
 
 module.exports = MusicData;

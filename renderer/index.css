@@ -1,0 +1,27 @@
+#music_list .fa-play {
+    transition: all 0.3s;
+}
+
+#music_list .fa-play:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#music_list .fa-pause {
+    transition: all 0.3s;
+}
+
+#music_list .fa-pause:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#music_list .fa-trash-alt {
+    transition: all 0.3s;
+}
+
+#music_list .fa-trash-alt:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
