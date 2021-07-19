@@ -1,5 +1,5 @@
 const { ipcRenderer } = require('electron');
-const { $ } = require('./getEle');
+const { $ } = require('../utils/helper');
 const path = require('path');
 let music_paths = [];
 
